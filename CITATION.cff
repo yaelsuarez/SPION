@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the accompanying manuscript."
+title: "SPION_Quant: voxel-wise quantification of SPION concentration from multi-echo MRI"
+abstract: >-
+  Tools and analysis for quantifying superparamagnetic iron oxide nanoparticle
+  (SPION) concentration from multi-echo spin-echo MRI. Includes an echo-time
+  DICOM viewer, 3D segmentation, voxel-wise T2 relaxometry with AIC-based model
+  selection, an intensity normalisation scheme, and the classifier benchmark
+  reported in the accompanying manuscript.
+type: software
+authors:
+  - given-names: Yael
+    family-names: Suarez
+    # orcid: "https://orcid.org/0000-0000-0000-0000"   # TODO
+    # affiliation: ""                                   # TODO
+version: 0.1.0
+date-released: 2026-10-01
+license: MIT
+keywords:
+  - MRI
+  - relaxometry
+  - T2
+  - SPION
+  - iron oxide nanoparticles
+  - DICOM
+  - image segmentation
+# repository-code: "https://github.com/<user>/SPION_Quant"   # TODO once public
+# doi: "10.5281/zenodo.XXXXXXX"                              # TODO after Zenodo archiving
+
+# Cite the manuscript rather than the software when referring to the method.
+# preferred-citation:
+#   type: article
+#   title: ""
+#   authors:
+#     - given-names: Yael
+#       family-names: Suarez
+#   journal: ""
+#   year: 2026
+#   doi: ""
